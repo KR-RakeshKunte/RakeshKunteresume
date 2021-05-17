@@ -1,0 +1,199 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+
+}
+.container{
+    width:80%;
+    /*display:flex;*/
+    margin:auto;
+    padding-left:4px;
+    padding-top:20px;
+    /*border:1px double black;*/
+    border-left:10px solid palevioletred;
+    background-color: blanchedalmond;
+
+}
+.main-section{
+    width:100%;
+    display:flex;
+}
+.listing-order{
+    list-style:none;
+    font-style: oblique;
+    
+}
+.aboutself{
+    width:70%;
+    padding:40px;
+    background-color: cornsilk;
+    font-size: larger;
+}
+
+.passport{
+    width:30%;
+    background-color: cornsilk;
+    
+}
+
+
+.image-adjust{
+    width:60%;
+    height:200px;
+    
+}
+.seperator{
+    padding:5px;
+}
+table,th,td,tr{
+    border:1px solid black;
+    border-collapse: collapse;
+    padding:0px 10px;
+    text-align:center;
+}
+td{
+    font-style: oblique;
+}
+.obj{
+    font-style:oblique;
+    padding-left: 20px;
+    background-color: cornsilk;
+}
+
+.table-part{
+    justify-content:center;
+    display:flex;
+    margin-top:20px;
+    background-color: cornsilk;
+}
+.skills{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+}
+.lan{
+    display:flex;
+    background-color: cornsilk;
+}
+.lan div:first-child{
+    width:30%;
+    padding-left: 20px;
+    font-style: oblique;
+}
+.lan div:last-child{
+    width:70%
+}
+.progressbar{
+    width:95%
+}
+body{
+    line-height:2.0;
+}
+.section-1{
+    padding-left:0px;
+}
+.header{
+   padding-left:10px;
+   background-color: cadetblue;
+}
+.project{
+    padding-left:10px;
+    background-color: cornsilk;
+}
+.activities{
+    padding-left:40px;
+    font-style: oblique;
+    background-color: cornsilk;
+}
+ol{
+   list-style:disc;
+}
+.personal{
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+    
+}
+.add{
+    display:flex;
+    text-align: center;
+    background-color: cornsilk;
+}
+.add div:first-child{
+    width:50%;
+    text-align: justify;
+    padding-left: 30%;
+    font-weight:bolder;
+    
+}
+.add div:last-child{
+    width:40%;
+    text-align: justify;
+    padding-left:20px;
+    font-style: oblique;
+}
+.project{
+    padding-left:20px;
+    font-style:oblique;
+    text-align:inherit;
+}
+.projectname{
+    padding-left:10px;
+    font-weight: bold;
+    background-color: darkgray;
+
+}
+.objheader{
+    
+    font-weight: bold;
+    background-color: cadetblue;
+    text-shadow: whitesmoke
+}
+.objheader:hover{
+    background-color: darkcyan;
+    color:whitesmoke;
+    text-align:center;
+    border:5px double whitesmoke;
+    /*width:30%;*/
+    text-shadow:red;
+}
+.header:hover{
+    background-color: darkcyan;
+    color:whitesmoke;
+    text-align:center;
+    border:5px double whitesmoke;
+}
+.lan:hover{
+    background-color: yellow;
+    color: tomato;
+}
+.aboutself:hover{
+    color:blue;
+    text-align: center;
+}
+.obj:hover{
+    color:darkslategrey;
+    font-weight: bold;
+}
+table:hover{
+    color:darkslategrey;
+    font-weight: bold;
+}
+.projectname:hover{
+    color:darkblue;
+    font-weight: bold;
+}
+.project:hover{
+    color:darkslategrey;
+    font-weight: bold;
+}
+.activities:hover{
+    color:darkslategrey;
+    font-weight: bold;
+}
+.add:hover{
+    color:darkslategrey;
+    font-weight: bold;
+}
